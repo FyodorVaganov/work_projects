@@ -47,14 +47,6 @@ def St(t, f):
 def phase(real, imag):
     return (atan(imag / real)).real
 
-
-def make_real(x):
-    return x.real
-
-
-def make_imaginary(x):
-    return x.imag
-
 case_1 = False  # case, when first signal ends before signal 2 starts
 case_2 = False  # case, when first signal ends after signal 2 starts
 if time_stop_1 <= time_start_2:
