@@ -55,17 +55,6 @@ def make_real(x):
 def make_imaginary(x):
     return x.imag
 
-
-# переделываю
-if time_stop_1 < time_stop_2:
-    higher_timestop = time_stop_2
-else:
-    higher_timestop = time_stop_1
-
-if time_start_1 < time_start_2:
-    higher_timestart = time_start_2
-else:
-    higher_timestart = time_start_1
 case_1 = False  # case, when first signal ends before signal 2 starts
 case_2 = False  # case, when first signal ends after signal 2 starts
 if time_stop_1 <= time_start_2:
